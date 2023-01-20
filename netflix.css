@@ -1,0 +1,405 @@
+.netflix {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/IN-en-20220926-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: 1370px;
+    background-repeat: repeat-y;
+}
+
+/* ************************NAVBAR STARTS HERE************************* */
+
+.navbar ul {
+    list-style: none;
+    align-items: center;
+    width: 1328px;
+    height: 90px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+li.logo {
+    background-image: url(./img/netflix-logo-circle-png-5.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    float: left;
+    overflow: auto;
+    margin-top: 11.5px;
+    margin-left: -27.7px;
+
+}
+
+button.signin {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 32px;
+    margin-left: 970px;
+    width: 90px;
+    height: 40px;
+    font-size: 20.2px;
+    background-color: rgb(211, 3, 3);
+    border-radius: 30px;
+    border-width: 0px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 5px 5px 20px black;
+
+}
+
+button.signin:hover {
+    background-color: red;
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+
+}
+
+select.lang {
+    margin-top: 32px;
+    margin-right: 50px;
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 5px 5px 20px black;
+}
+
+select.lang:hover {
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+}
+
+/* ************************NAVBAR ENDS HERE************************* */
+
+/* *************************CONTENT 1 STARTS************************ */
+div.content1 {
+    margin-top: 110px;
+    
+}
+
+ul.content1 {
+    list-style: none;
+    text-align: center;
+}
+
+li.Biglogo {
+    background-image: url(./img/BigLogonetflix.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 160px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: -125px;
+    transition: 1s ease-out;
+}
+li.Biglogo:hover{
+box-shadow: 5px 5px 20px rgb(0, 0, 0) inset;
+border-radius: 100px;
+background-color: black;
+}
+
+.middle1 {
+    margin-left: 200px;
+    color: white;
+    margin-right: 200px;
+    /* padding: 10px 85px; */
+    text-align: center;
+    font-size: 60px;
+    margin-top: -10px;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 5px 5px 20px rgba(255, 0, 0, 0.5);
+}
+
+.middle2 {
+    margin-left: 200px;
+    color: white;
+    margin-right: 200px;
+    /* padding: 10px 85px; */
+    text-align: center;
+    font-size: 35px;
+    margin-top: -15px;
+    font-family: 'Nunito', sans-serif;
+    /* text-shadow: 5px 5px 20px rgb(255, 255, 255,0.5); */
+}
+
+.middle3 {
+    margin-left: 250px;
+    color: white;
+    margin-right: 250px;
+    /* padding: 10px 85px; */
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    /* text-shadow: 5px 5px 20px rgb(255, 255, 255,0.5); */
+}
+
+input.input {
+    margin-left: 360px;
+    width: 400px;
+    height: 40px;
+    font-size: 15.4px;
+    border-radius: 30px;
+    padding-left: 14px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 20px black;
+    background-color: rgb(255, 255, 255);
+}
+input.input:hover{
+    box-shadow: 5px 5px 20px rgba(255, 0, 0, 0.5);
+    border-color: black;
+    border-width: 2px;
+}
+
+button.start {
+    width: 130px;
+    height: 47px;
+    font-size: 17px;
+    border-radius: 30px;
+    background-color: rgb(211, 3, 3);
+    color: white;
+    border-width: 0px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 5px 5px 20px black;
+}
+button.start:hover{
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    background-color: red;
+}
+/* *************************CONTENT 1 ENDS************************ */
+/* *************************CONTENT 2 STARTS************************ */
+
+div.content2{
+ background-color: rgb(0, 0, 0);
+ height: 350px;
+    /* border-radius: 210px; */
+    margin-top: 90px;
+    margin-bottom: 2px;
+    /* border-color: white;
+    border-width: 10px; */
+    margin-left: -15px;
+    width: 1000px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 5px -5px 20px rgb(0, 0, 0);
+    /* transition: 1s ease-in-out; */
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+}
+div.content2:hover{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* border-color: white; */
+    box-shadow: 5px -5px 40px rgb(255, 255, 255);
+    /* background-color: rgb(255, 0, 0); */
+}
+div.content2 ul{
+    list-style: none;
+}
+li.text2{
+    float: left;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+img.img2{
+
+    width: 410px;
+    height: 300px;
+    box-shadow: 5px 5px 100px rgb(0, 0, 0);
+    float: right;
+    margin-right: -355.2px;
+    margin-top: 5px;
+    
+}
+video.vid2{
+    margin-top: 24.3px;
+    margin-right: 140.6px;
+    width: 310px;
+    height: 245px;
+    float: right;
+}
+/* *************************CONTENT 2 ENDS************************ */
+/* *************************CONTENT 3 STARTS************************ */
+
+div.content3{
+ background-color: rgb(0, 0, 0);
+ height: 350px;
+    /* border-radius: 210px; */
+    margin-top: 30px;
+    /* border-color: white;
+    border-width: 10px; */
+    width: 1003px;
+    margin-left: 345px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    /* transition: 1s ease-in-out; */
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    box-shadow: 5px -5px 20px rgb(0, 0, 0);
+    /* box-shadow: 5px -5px 40px rgb(0, 0, 0) inset; */
+}
+div.content3:hover{
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* border-color: white; */
+    box-shadow: 5px -5px 40px rgb(255, 255, 255);
+    /* background-color: rgb(255, 0, 0); */
+}
+div.content3 ul{
+    list-style: none;
+}
+li.text3{
+    list-style: none;
+    float: right;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin-top: -390.3px;
+    margin-right: 29.5px;
+}
+
+img.img3a{
+    float: left;
+    width: 380px;
+    height: 280px;
+    margin-left: 50px;
+}
+div.box{
+    float: left;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: -323.3px;
+    margin-top: 206.8px;
+    padding: 10px 205.9px 10px 10px;
+    border-radius: 10px;
+}
+img.img3b{
+float: left;
+float: left;
+    width: 50px;
+    height: 70px;
+}
+
+li.smalltext{
+    color: white;
+    float: left;
+    font-size: 10px;
+    margin-top: 210px;
+    margin-left: -249.3px;
+    font-family: 'Nunito', sans-serif;
+}
+div.gif{
+    background-image: url(./img/download-icon.gif);
+    background-repeat: no-repeat;
+    background-size: 50.2px;
+    float: left;
+    width: 210px;
+    height: 210px;
+    margin-top: 226.8px;
+    margin-left: -114.1px;
+}
+
+/* *************************CONTENT 3 ENDS************************ */
+/* *************************CONTENT 4 STARTS************************ */
+
+div.content4{
+ background-color: rgb(0, 0, 0);
+ height: 350px;
+    /* border-radius: 210px; */
+    margin-top: 30px;
+    /* border-color: white;
+    border-width: 10px; */
+    margin-left: -15px;
+    width: 1000px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    /* transition: 1s ease-in-out; */
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    box-shadow: 5px -5px 20px rgb(0, 0, 0);
+    /* box-shadow: 5px -5px 40px rgb(0, 0, 0) inset; */
+}
+div.content4:hover{
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* background-color: rgb(255, 0, 0); */
+    /* border-color: white; */
+    box-shadow: 5px -5px 40px rgb(255, 255, 255);
+}
+div.content4 ul{
+    list-style: none;
+}
+video.vid4{
+    margin-top: -70px;
+    margin-right: 140.6px;
+    width: 297.3px;
+    height: 248.7px;
+    float: right;
+}
+img.img4{
+    float: left;
+    width: 470px;
+    height: 325px;
+    margin-left: 438.7px;
+    margin-top: -230.7px;
+}
+li.text4{
+    float: left;
+    margin-top: -285px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+
+/* *************************CONTENT 4 ENDS************************ */
+/* *************************CONTENT 5 STARTS************************ */
+
+div.content5{
+ background-color: rgb(0, 0, 0);
+ height: 350px;
+    /* border-radius: 210px; */
+    margin-top: 30px;
+    /* border-color: white;
+    border-width: 10px; */
+    width: 1003px;
+    margin-left: 345px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    /* transition: 1s ease-in-out; */
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    box-shadow: 5px -5px 20px rgb(0, 0, 0);
+    /* box-shadow: 5px -5px 40px rgb(0, 0, 0) inset; */
+}
+div.content5:hover{
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* background-color: rgb(255, 0, 0); */
+    /* border-color: white; */
+    box-shadow: 5px -5px 40px rgb(255, 255, 255);
+}
+div.content5 ul{
+    list-style: none;
+}
+img.img5{
+    float: left;
+    width: 420px;
+    height: 310px;
+    margin-left: 60px;
+}
+li.text5{
+    list-style: none;
+    float: right;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin-top: -305.9px;
+    margin-right: 46px;
+}
+
+/* *************************CONTENT 5 ENDS************************ */
